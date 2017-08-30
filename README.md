@@ -1,1 +1,1 @@
-# a_star
+# A\* Algorithm visual demonstration
