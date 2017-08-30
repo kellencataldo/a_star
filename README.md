@@ -10,7 +10,7 @@ This is the end result of the algorithm. **Black** squares represent walls, node
 
 If the exit cannot be reached, a message will display.
 
-![EXample2](http://i.imgur.com/iep8mCc.png)
+![EXample2](http://i.imgur.com/tqfo98d.png?1)
 
 ## Usage
 
