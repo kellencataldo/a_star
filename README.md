@@ -14,7 +14,7 @@ If the exit cannot be reached, a message will display.
 
 ## Usage
 
-The maze itself can be found in maze.txt. Configuration of the maze is fairly simple. The maze can be any width and any height, although the entrance must appear in the bottom row of the maze, and the exit must appear in either the top row, the left column, or the right column.
+The maze itself can be found in maze.txt. Configuration of the maze is fairly simple. A 1 represents a wall, and a 0 represents a part of the maze that the program can explore. The maze can be any width and any height, although the entrance must appear in the bottom row of the maze, and the exit must appear in either the top row, the left column, or the right column.
 
 The other option avaliable to change the performance of the program is the **speed** value, appearing the main.py file. Increasing this value will increase the delay between each step of the algorithm, and slow the program down. This is can be done to better visualize the decision making process of the algorithm.
 
