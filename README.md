@@ -22,7 +22,7 @@ The other option avaliable to change the performance of the program is the **spe
 
 The A\* Algorithm itself is a fairly simple process. Each non-wall node in the algorithm consists of three values; the g, h, f, and parent value. The data structure for these nodes can be found in node.py.
 
-> **g value** is the value given by the exact distance from the entrance to the node. The algorithm can only process nodes adjacent (not diagonal) to previously visited nodes. This value is set as the algorithm processes a node by examining the g value of the previous node, and increasing that value by one to represent to the additional step required to reach the node.
+**g value** is the value given by the exact distance from the entrance to the node. The algorithm can only process nodes adjacent (not diagonal) to previously visited nodes. This value is set as the algorithm processes a node by examining the g value of the previous node, and increasing that value by one to represent to the additional step required to reach the node.
 
 **h value** is the heuristic value used to estimate the movement cost to reach the exit for any given node. Since the location of the exit (although not the path) is known from the beginning, this value can be set for all nodes at the start of the algorithm. The heuristic function that I am using is the euclidean distance between the given node and exit node. Another common heuristic is Manhattan distance.
 
